@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>zPolicy Wizard</title>
+    <link>https://github.com/ajawzero/zpolicy-wizard-updates</link>
+    <description>Updates for zPolicy Wizard on the Mac. Not an official Zscaler tool.</description>
+    <item>
+      <title>zPolicy Wizard 4.0 (build 1)</title>
+      <pubDate>Fri, 27 Nov 2026 05:39:05 GMT</pubDate>
+      <enclosure url="https://github.com/ajawzero/zpolicy-wizard-updates/releases/download/v4.0.1/zPolicy-Wizard-4.0.1.dmg" sparkle:version="4.0.1" sparkle:shortVersionString="4.0" sparkle:os="macos" length="100977627" type="application/octet-stream" sparkle:signature="0yj5SIq8d+36DAKlY7f9sym1VUraK8GVD4l6cJhjfRSIUKn7wfaqrY9zmRXRzATS+d8JUkRkqLcdK13gev+0Dw==" />
+    </item>
+  </channel>
+</rss>
