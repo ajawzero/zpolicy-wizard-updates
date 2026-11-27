@@ -2,7 +2,7 @@
 
 zPolicy Wizard is a Mac and Windows app for Zscaler administrators and engineers. It builds best-practice configuration for a Zscaler tenant through Zscaler OneAPI, shows every change before making it, and tests what your policy does to traffic.
 
-zPolicy Wizard isn't an official Zscaler product and isn't supported by Zscaler. It was built by a Zscaler sales engineer for SEs and Zscaler practitioners. Its policy content builds on ZeroTrustPanda's ZTP Policy Wizard and ZTP Policy Simulator, with the author's permission.
+zPolicy Wizard isn't an official Zscaler product and isn't supported by Zscaler. It was built by a Zscaler sales engineer for SEs and Zscaler practitioners. Its policy content builds on ZeroTrustPanda's ZTP Policy Wizard and ZTP Policy Simulator, and their contributors.
 
 **This repository holds no source code.** It hosts the Mac app's downloads (the DMG on each [release](https://github.com/ajawzero/zpolicy-wizard-updates/releases)) and the signed feed the Mac app checks for updates. On Windows, zPolicy Wizard comes from the Microsoft Store.
 
