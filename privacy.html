@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>zPolicy Wizard: Privacy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif; max-width: 42rem; margin: 2.5rem auto; padding: 0 1.25rem; }
+  h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  .date { color: GrayText; margin-top: 0; }
+  li { margin: 0.35rem 0; }
+</style>
+</head>
+<body>
+<h1>zPolicy Wizard: Privacy</h1>
+<p class="date">Effective November 27, 2026</p>
+
+<p>zPolicy Wizard runs on your Mac or PC and configures your Zscaler tenant through Zscaler OneAPI. It has no account of its own, no ads, no analytics and no tracking. It never sends anything to us, and we don't collect any data about you.</p>
+
+<h2>Your Zscaler credentials</h2>
+<ul>
+  <li>The OneAPI client ID and secret you enter are sent only to your tenant's Zscaler sign-in service, to get a token for Zscaler's API. The token is kept in memory only.</li>
+  <li>If you choose to remember it, the client secret is saved in the macOS Keychain or Windows Credential Manager on your computer. It's never written to a file, a log or an export.</li>
+</ul>
+
+<h2>Your tenant's data</h2>
+<ul>
+  <li>What the app reads from and writes to your tenant goes only between your computer and Zscaler.</li>
+  <li>Run records (what each change did, so it can be undone), POVs, settings and the files you save stay on your computer, in the app's data folder: <code>~/Library/Application Support/zPolicy Wizard</code> on the Mac and <code>%LOCALAPPDATA%\zPolicy Wizard</code> on Windows. Delete that folder, or the app, and they're gone.</li>
+</ul>
+
+<h2>Other connections, only when you use the feature</h2>
+<ul>
+  <li><strong>PAC Analyzer:</strong> downloads a PAC file from a URL you give. With DNS lookups on, the host names the file asks about go to your computer's DNS server.</li>
+  <li><strong>Policy Simulator:</strong> may run DNS lookups (your system's DNS, or the public resolvers 8.8.8.8 and 1.1.1.1), read Microsoft's Office 365 endpoint list, and read <code>ip.zscaler.com</code> to see whether this computer's traffic goes through Zscaler.</li>
+  <li><strong>Packet Capture Analyzer:</strong> downloads Zscaler's published IP ranges from <code>config.zscaler.com</code>.</li>
+  <li><strong>Updates on the Mac:</strong> the app checks this site's signed update feed once a day and asks before installing; the check sends only the request for the feed. On Windows, the Microsoft Store handles updates.</li>
+</ul>
+<p>None of these carry your credentials or your tenant's data.</p>
+
+<h2>Files you open</h2>
+<p>Logs, packet captures, PAC files and other files you open in zPolicy Wizard are read on your computer and not sent anywhere.</p>
+
+<h2>Children</h2>
+<p>zPolicy Wizard is a tool for Zscaler administrators and isn't made for children.</p>
+
+<h2>Not an official Zscaler product</h2>
+<p>zPolicy Wizard isn't affiliated with or endorsed by Zscaler, Inc. Zscaler's own handling of your tenant's data is covered by your agreement with Zscaler.</p>
+
+<h2>Changes and questions</h2>
+<p>If this policy changes, we'll update this page and its date. Questions: <a href="mailto:zpw@ajawzero.com">zpw@ajawzero.com</a></p>
+</body>
+</html>
